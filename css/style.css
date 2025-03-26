@@ -40,3 +40,22 @@ nav h3{
 nav a:hover{
     background-color:#575757;
 }
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer a:hover {
+    background-color: #575757;
+}
