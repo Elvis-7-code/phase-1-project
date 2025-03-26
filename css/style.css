@@ -23,3 +23,8 @@ header p {
     font-weight: bold;
     text-transform: uppercase;
 }
+
+nav{
+    background-color:#333;
+    overflow: hidden;
+}
