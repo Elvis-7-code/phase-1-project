@@ -4,18 +4,24 @@ fetch("http://localhost:5000/recipes/1"{
     .catch(error=> console.error("Error fetching recipes:",error))
 })
 
-// const newRecipe ={
-//     name:"Lobster Ravioli",
-//     description: "Pasta stuffed with lobster in saffron sauce."
-// };
+const newRecipe ={
+    name:"Lobster Ravioli",
+    description: "Pasta stuffed with lobster in saffron sauce."
+};
 
-// fetch("http://localhost:5000/recipes",){
-//     method:"POST"
-//     headers:{
-//         "Content-Type":"application/json"
-//     },
-//     body:JSON.stringify(newRecipe)
-// })
+fetch("http://localhost:5000/recipes",{
+    method:"POST",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify(newRecipe)
+})
+.then(response+> response.json())
+.then(data=>{
+    console.log("Recipe added:", data)
+    fetchRecipes();
+})
+.catch(error => console.error("Error adding recipe", error));
 
 
 document.getElementById("home")
