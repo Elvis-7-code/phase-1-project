@@ -1,7 +1,13 @@
 {
-    "posts": [
-      { "id": 1, "title": "Hello World", "author": "John Doe" },
-      { "id": 2, "title": "JSON Server ", "author": "Jane Doe" }
-    ]
-  }
+  "recipes":[
+    {
+      "id":1,
+      "name": "Bruschetta",
+      "description": "Toasted bread with tomatoes, basil,and balsamic glaze."
+    },
+    {
+      
+    }
+  ]
+}
   

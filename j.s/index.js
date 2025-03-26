@@ -13,3 +13,6 @@ document.querySelectorAll(".add-to-cart").forEach(button=>{
         alert("Item added to cart!")
     })
 })
+function (params) {
+    
+}

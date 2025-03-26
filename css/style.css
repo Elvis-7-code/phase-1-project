@@ -7,4 +7,9 @@
 #navigation{
     display: block;
     color: white;
+    transition:background-color white;
+}
+
+#recipes{
+    
 }
