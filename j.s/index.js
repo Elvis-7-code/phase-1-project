@@ -23,8 +23,8 @@ fetch("http://localhost:5000/recipes",{
 })
 .catch(error => console.error("Error adding recipe", error));
 
-//.DELETE
-fetch("http://localhost:5000/recipes/1"{
+
+fetch("http://localhost:5000/recipes/1"{//.DELETE
     method: "DELETE"
 })
 .then(response=>{
@@ -35,9 +35,10 @@ fetch("http://localhost:5000/recipes/1"{
 })
 .catch(erro=> console.error("Error deleting recipe:",error))
 
+//..CLICK
 document.getElementById("home")
 .addEventListener("click", function(){
-    alert("Welcome to our services!")
+    alert("Welcome to The Cosy Inn! Enjoy your stay!")
 })
 
 document.getElementById("menu")
