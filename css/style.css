@@ -4,12 +4,10 @@
     margin:0
 }
 
-#navigation{
-    display: block;
-    color: white;
-    transition:background-color white;
-}
-
-#recipes{
-
+header{
+    background: url('https://images.unsplash.com/photo-1579621977728-b634b7faac24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDg5fHxyaXN0b3JhbnQgfGVufDB8fHx8fDE2NTc0ODk4OTM&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 36px;
+    padding: 100px 20px;
 }
