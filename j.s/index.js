@@ -1,3 +1,8 @@
+const newRecipe ={
+    name:"Lobster Ravioli",
+    description: "Pasta stuffed with lobster in saffron sauce."
+}
+
 document.getElementById("home")
 .addEventListener("click", function(){
     alert("Welcome to our services!")
@@ -13,6 +18,6 @@ document.querySelectorAll(".add-to-cart").forEach(button=>{
         alert("Item added to cart!")
     })
 })
-function (params) {
-    
-}
+
+
+
