@@ -1,10 +1,10 @@
-fetch("http://localhost:5000/recipes/1"{
+fetch("http://localhost:5000/recipes/1"{//.GET
     .then(response => response.json())
     .then(data => displayRecipes(data))
     .catch(error=> console.error("Error fetching recipes:",error))
 })
 
-const newRecipe ={
+const newRecipe ={ //POST
     name:"Lobster Ravioli",
     description: "Pasta stuffed with lobster in saffron sauce."
 };
@@ -23,6 +23,17 @@ fetch("http://localhost:5000/recipes",{
 })
 .catch(error => console.error("Error adding recipe", error));
 
+//.DELETE
+fetch("http://localhost:5000/recipes/1"{
+    method: "DELETE"
+})
+.then(response=>{
+    if(response.ok){
+        console.log("Recipe deleted")
+        fetchRecipes();
+    }
+})
+.catch(erro=> console.error("Error deleting recipe:",error))
 
 document.getElementById("home")
 .addEventListener("click", function(){
