@@ -40,6 +40,18 @@ nav a:hover{
     border-bottom: 2px solid #2c3e50;
 }
 
+
+#intro {
+    background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836'); 
+    background-size: cover;
+    color: whitesmoke;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #intro h1{
     font-size: 3rem;
     font-family: 'Georgia', serif;
@@ -53,6 +65,8 @@ nav a:hover{
     color: #7f8c8d;
 }
 
+
+
 #highlight, #luxury-stay, #activities, #wellness, #event-hosting {
     background-color: #ffffff;
     padding: 40px;
@@ -61,6 +75,10 @@ nav a:hover{
     margin: 20px;
     border: 2px solid #7f8c8d;
     flex: 1;
+}
+
+#highlight, #luxury-stay, #activities, #wellness, #event-hosting {
+    width: 45%;
 }
 
 footer {
