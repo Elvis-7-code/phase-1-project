@@ -88,7 +88,7 @@ nav a:hover{
 
 #event-hosting p {
     font-size: 1rem;
-    color:darkseagreen;
+    color: #2c3e50;
 }
 
 #highlight{
@@ -156,6 +156,14 @@ nav a:hover{
 }
 #wellness p{
     color: 2c3e50;
+}
+
+#event-hosting{
+    background-image: url('https://www.corporateeventnews.com/sites/default/files/inline-images/Balboa%20Bay.jpg ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f4f4;
 }
 
 #Navigation {
