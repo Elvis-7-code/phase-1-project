@@ -88,7 +88,7 @@ nav a:hover{
 
 #luxury-stay p, #activities p, #wellness p, #event-hosting p {
     font-size: 1rem;
-    color: #7f8c8d;
+    color:blueviolet;
 }
 
 #highlight{
@@ -119,6 +119,19 @@ nav a:hover{
     padding: 12px;
     border-radius: 5px;
     display: inline-block;
+}
+
+#luxury-stay {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/fs/2ae33089885319.5e04ca9e59b4b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 100px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 2px solid #34495e;
 }
 
 #Navigation {
