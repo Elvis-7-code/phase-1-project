@@ -86,7 +86,7 @@ nav a:hover{
     margin-bottom: 15px;
 }
 
-#highlight p, #luxury-stay p, #activities p, #wellness p, #event-hosting p {
+#luxury-stay p, #activities p, #wellness p, #event-hosting p {
     font-size: 1rem;
     color: #7f8c8d;
 }
@@ -103,6 +103,22 @@ nav a:hover{
     border-radius: 8px;
     border: 2px solid #34495e;
 
+}
+
+#highlight h2 {
+    font-size: 2.5rem;
+    color:#34495e;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 15px;
+}
+
+#hightlight p {
+    font-size: 1.2rem;
+    color:whitesmoke;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 12px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 #Navigation {
