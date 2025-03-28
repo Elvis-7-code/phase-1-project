@@ -86,7 +86,7 @@ nav a:hover{
     margin-bottom: 15px;
 }
 
-#luxury-stay p, #wellness p, #event-hosting p {
+#event-hosting p {
     font-size: 1rem;
     color:darkseagreen;
 }
@@ -127,7 +127,7 @@ nav a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-color: #f4f4f4;
-    color: #333;
+    color:darkseagreen;
     padding: 100px 20px;
     margin: 20px 0;
     border-radius: 8px;
@@ -145,6 +145,17 @@ nav a:hover{
     margin: 20px 0;
     border-radius: 8px;
     border: 2px solid #34495e;
+}
+
+#wellness{
+    background-image: url('https://2.bp.blogspot.com/-E1x8KgYHhn4/WD9qKBmssKI/AAAAAAAAAPc/HlwTstXIO0YpWwM6kNWwLWQB8CBJQ_QCwCEw/s1600/waldorf.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f4f4;;
+}
+#wellness p{
+    color: 2c3e50;
 }
 
 #Navigation {
