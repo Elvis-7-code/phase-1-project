@@ -23,7 +23,7 @@ fetch("http://localhost:5000/recipes",{
 .catch(error => console.error("Error adding recipe", error));
 
 
-fetch("http://localhost:5000/recipes/1"{//.DELETE
+fetch("http://localhost:5000/recipes/1", {//.DELETE
     method: "DELETE"
 })
 .then(response=>{
@@ -32,7 +32,7 @@ fetch("http://localhost:5000/recipes/1"{//.DELETE
         fetchRecipes();
     }
 })
-.catch(erro=> console.error("Error deleting recipe:",error))
+.catch(error=> console.error("Error deleting recipe:",error))
 
 //..CLICK
 document.getElementById("home")
