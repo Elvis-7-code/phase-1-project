@@ -1,8 +1,7 @@
-fetch("http://localhost:5000/recipes/1"{//.GET
+fetch("http://localhost:5000/recipes/1")//.GET
     .then(response => response.json())
     .then(data => displayRecipes(data))
     .catch(error=> console.error("Error fetching recipes:",error))
-})
 
 const newRecipe ={ //POST
     name:"Lobster Ravioli",
