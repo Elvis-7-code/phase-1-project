@@ -1,4 +1,4 @@
-fetch("http://localhost:5000/recipes/1")//.GET
+fetch("https://end-of-phase.vercel.app/recipes")//.GET
     .then(response => response.json())
     .then(data => displayRecipes(data))
     .catch(error=> console.error("Error fetching recipes:",error))
@@ -8,7 +8,7 @@ const newRecipe ={ //POST
     description: "Pasta stuffed with lobster in saffron sauce."
 };
 
-fetch("http://localhost:5000/recipes",{
+fetch("https://end-of-phase.vercel.app/recipes",{
     method:"POST",
     headers:{
         "Content-Type":"application/json"
@@ -23,7 +23,7 @@ fetch("http://localhost:5000/recipes",{
 .catch(error => console.error("Error adding recipe", error));
 
 
-fetch("http://localhost:5000/recipes/1", {//.DELETE
+fetch("https://end-of-phase.vercel.app/recipes", {//.DELETE
     method: "DELETE"
 })
 .then(response=>{
