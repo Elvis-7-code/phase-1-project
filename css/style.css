@@ -86,9 +86,9 @@ nav a:hover{
     margin-bottom: 15px;
 }
 
-#luxury-stay p, #activities p, #wellness p, #event-hosting p {
+#luxury-stay p, #wellness p, #event-hosting p {
     font-size: 1rem;
-    color:blueviolet;
+    color:darkseagreen;
 }
 
 #highlight{
@@ -128,6 +128,19 @@ nav a:hover{
     background-position: center;
     background-color: #f4f4f4;
     color: #333;
+    padding: 100px 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    border: 2px solid #34495e;
+}
+
+#activities{
+    background-image: url('https://www.tahitilegends.com/images1/gallery/tahiti-romantic-dinner-2000x1200_103.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f4f4f4;
+    color:whitesmoke;
     padding: 100px 20px;
     margin: 20px 0;
     border-radius: 8px;
